@@ -13,7 +13,7 @@
         <!--second-->
         <scene sceneID="uNs-dt-lbn">
             <objects>
-                <viewController id="8Gx-zg-Yyf" sceneMemberID="viewController">
+                <viewController id="8Gx-zg-Yyf" customClass="ViewController" customModule="AnimatedTabBarTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bxh-cb-Uck">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,7 +34,7 @@
         <!--first-->
         <scene sceneID="A3E-dN-Em7">
             <objects>
-                <viewController id="wZ9-4n-3dq" sceneMemberID="viewController">
+                <viewController id="wZ9-4n-3dq" customClass="ViewController" customModule="AnimatedTabBarTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TTw-Tm-glE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
