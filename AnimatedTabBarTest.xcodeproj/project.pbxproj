@@ -23,6 +23,8 @@
 		5A5AFBDA2254A50A008282F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A5AFBDD2254A50A008282F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A5AFBDF2254A50A008282F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF44B69225DE8AE00CAB740 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		5AF44B6A225DE8AE00CAB740 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		5F6FEC8D22C1240CCEBCD483 /* Pods_AnimatedTabBarTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedTabBarTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		787654DFD336059A45062C6B /* Pods-AnimatedTabBarTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTabBarTest.debug.xcconfig"; path = "Target Support Files/Pods-AnimatedTabBarTest/Pods-AnimatedTabBarTest.debug.xcconfig"; sourceTree = "<group>"; };
 		E316F8B5DE4860264C8D3E1F /* Pods-AnimatedTabBarTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTabBarTest.release.xcconfig"; path = "Target Support Files/Pods-AnimatedTabBarTest/Pods-AnimatedTabBarTest.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +56,6 @@
 				787654DFD336059A45062C6B /* Pods-AnimatedTabBarTest.debug.xcconfig */,
 				E316F8B5DE4860264C8D3E1F /* Pods-AnimatedTabBarTest.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -133,6 +134,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 5A5AFBC72254A509008282F5;
 			productRefGroup = 5A5AFBD12254A509008282F5 /* Products */;
@@ -221,6 +223,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A5AFBD82254A509008282F5 /* Base */,
+				5AF44B69225DE8AE00CAB740 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5A5AFBDD2254A50A008282F5 /* Base */,
+				5AF44B6A225DE8AE00CAB740 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -240,6 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -301,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
