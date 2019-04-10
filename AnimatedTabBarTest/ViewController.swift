@@ -17,10 +17,12 @@ class ViewController: UIViewController {
         (tabBarController as! RAMAnimatedTabBarController).isBottomLineShow = true
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
         
-        (tabBarController as! RAMAnimatedTabBarController).setSelectIndex(from: 0, to: 1)
+        let tabController = tabBarController as! RAMAnimatedTabBarController
+        let item = tabController.tabBar.selectedItem as! RAMAnimatedTabBarItem
+        print("index: \(tabController.selectedIndex) item: \(item.iconView?.textLabel.text)")
     }
 }
 
