@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RAMAnimatedTabBarController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        let myTabBar = self.window?.rootViewController as! RAMAnimatedTabBarController
+        let item = myTabBar.animatedItems[0] as! RAMAnimatedTabBarItem
+//            myTabBar.animatedItems[0].animation = RAMBounceAnimation()
+        item.animation = RAMRotationAnimation()
+        
+            
         return true
     }
 
