@@ -13,14 +13,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        (tabBarController as! RAMAnimatedTabBarController).isBottomLineShow = true
+        
+        view.backgroundColor = .red
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        (tabBarController as! RAMAnimatedTabBarController).setSelectIndex(from: 0, to: 1)
+        //  hide tab bar
+        (tabBarController as! RAMAnimatedTabBarController).animationTabBarHidden(true)
     }
 }
 
